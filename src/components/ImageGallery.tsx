@@ -5,6 +5,7 @@ import SortableItem from "./SortableItem";
 import Checkbox from "./Checkbox";
 type Props={
     images:Image[]
+    setImages?:(images:Image[])=>void
 }
 function ImageGallery(props:Props) {
     const [images, setImages] = useState(props.images);

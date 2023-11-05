@@ -83,7 +83,7 @@ function App() {
   ]);
   return (
     <div className="container p-16">
-      <ImageGallery images={images} />
+      <ImageGallery images={images}  />
     </div>
     
   )
