@@ -21,7 +21,7 @@ jobs:
     - name: npm install, build, and test
       run: |
         yarn install
-        yarn run build --if-present
+        yarn run build
         
     - name: upload to railway
       uses: bervProject/railway-deploy@main
