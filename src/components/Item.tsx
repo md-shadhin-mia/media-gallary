@@ -1,4 +1,4 @@
-import React, { forwardRef, HTMLAttributes, CSSProperties, useState } from 'react';
+import { forwardRef, HTMLAttributes, CSSProperties, useState } from 'react';
 import CheckBox from './Checkbox';
 
 export type ItemProps = HTMLAttributes<HTMLDivElement> & {
