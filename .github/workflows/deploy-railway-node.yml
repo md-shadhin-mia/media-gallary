@@ -24,8 +24,8 @@ jobs:
         yarn run build
         
     - name: upload to railway
-      uses: bervProject/railway-deploy@main
+      uses: devtomio/action-railway@v1.1.4
       with:
-          railway_token: ${{ secrets.RAILWAY_TOKEN }}
-          service: "image-gallery"
+        railway_token: ${{ secrets.RAILWAY_TOKEN }}
+        service: "image-gallery"
           
