@@ -34,7 +34,7 @@ const Item = forwardRef<HTMLDivElement, ItemProps>(({ image, withOpacity, isDrag
             style={{ ...style }}
             ref={ref}
             {...props}
-            className={`${!isDragging ? "origin-top-left" : "origin-center"} flex rounded-lg border border-dashed border-gray-600 overflow-hidden ${isDragging ? "cursor-grabbing" : "cursor-grab"}`}
+            className={`${!isDragging ? "origin-top-left" : "origin-center"} flex rounded-lg border border-solid border-gray-600 overflow-hidden ${isDragging ? "cursor-grabbing" : "cursor-grab"}`}
         >
             <img src={image.src} alt={image.name} />
         </div>
